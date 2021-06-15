@@ -1,4 +1,4 @@
-# Text Recognition using tesserocr
+# Text Recognition Using Tesserocr
 <H4> Installation Guide </h4>
 1.Follow installation_guide.txt in repo<br>
 
