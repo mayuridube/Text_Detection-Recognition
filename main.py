@@ -11,7 +11,7 @@ python3 main.py --image './images/aadhar_demo2.jpg' --confidence True
 
 # importing packages
 import argparse
-from text_detection_recognition import TextDetectionRecognition
+from text_recognition_utils import TextDetectionRecognition
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
