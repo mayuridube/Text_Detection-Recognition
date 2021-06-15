@@ -4,16 +4,16 @@
 
 <h4> Usage:</h4>
 1.Only print the text from image<br>
-$ python3 main.py --image './images/aadhar_demo2.jpg'<br>
+$ python3 main.py --image './images/5.png'<br>
 
 2.Print the each word from image with its confidence<br>
-$ python3 main.py --image './images/aadhar_demo2.jpg' --confidence True<br>
+$ python3 main.py --image './images/5.png' --confidence True<br>
 
-<h4> Outputs </h4>
+<h4> Outputs: </h4>
 <p align="center">
  <h5> 1.straight image </h5><br>
- <img src="images/5.png", height="300"></img>&nbsp&nbsp&nbsp&nbsp>
- <img src="images/op_5.png", height="300"></img>
+ <img src="images/5.png", height="300",width="150"></img>&nbsp&nbsp&nbsp&nbsp>
+ <img src="images/op_5.png", height="300",width="150"></img>
 </p>
 
 <p>
