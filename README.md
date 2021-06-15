@@ -12,8 +12,7 @@ $ python3 main.py --image './images/5.png' --confidence True<br>
 <h4> Outputs: </h4>
 <p>
  <h5> 1.straight image </h5><br>
- <img src="images/5.png", height="100",width="80"></img>
- <img src="images/op_5.png", height="100",width="80"></img>
+ <img src="images/5.png", height="100",width="80"></img> <img src="images/op_5.png", height="100",width="80"></img>
 </p>
 
 <p>
