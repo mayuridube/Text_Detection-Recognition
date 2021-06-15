@@ -10,7 +10,7 @@ $ python3 main.py --image './images/5.png'<br>
 $ python3 main.py --image './images/5.png' --confidence True<br>
 
 <h4> Outputs: </h4>
-<p align="center">
+<p>
  <h5> 1.straight image </h5><br>
  <img src="images/5.png", height="100",width="50"></img>&nbsp&nbsp&nbsp&nbsp
  <img src="images/op_5.png", height="100",width="50"></img>
