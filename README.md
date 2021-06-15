@@ -18,7 +18,7 @@ $ python3 main.py --image './images/5.png' --confidence True<br>
  
 <p>
  2. OCR on Blur image:<br>
- <img src="images/5.png", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
+ <img src="images/3.jpeg", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
  Output:Image is Blur,unable to get OCR
  </p><br>
  
