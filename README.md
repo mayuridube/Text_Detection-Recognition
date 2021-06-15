@@ -10,7 +10,7 @@ $ python3 main.py --image './images/5.png'<br>
 $ python3 main.py --image './images/5.png' --confidence True<br>
 
 <h3>Outputs: </h3>
-<p align="center">
+<p>
  <img src="images/5.png", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
  <img src="images/op_5.png", height="150",width="80"></img><br>
  Fig:1 OCR on straight image:<br>
