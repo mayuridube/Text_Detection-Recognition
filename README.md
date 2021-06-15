@@ -14,15 +14,21 @@ $ python3 main.py --image './images/5.png' --confidence True<br>
  1. OCR on straight image:<br>
  <img src="images/5.png", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
  <img src="images/op_5.png", height="150",width="80"></img><br>
- </p>
+ </p><br>
+ 
 <p>
  2. OCR on Blur image:<br>
  <img src="images/5.png", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
  Output:Image is Blur,unable to get OCR
- </p>
+ </p><br>
+ 
 <p>
  3. OCR on rotated image:<br>
  <img src="images/1.jpg", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
  <img src="images/op_1.png", height="150",width="80"></img><br>
- </p>
+ </p><br>
+ 
+
+ 
+ 
 
