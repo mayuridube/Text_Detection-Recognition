@@ -17,7 +17,7 @@ from text_recognition_utils import TextDetectionRecognition
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,
 	help="path of the image file")
-ap.add_argument("-c", "--confidence", default="True",
+ap.add_argument("-c", "--confidence", default=False,
 	help="print the confidence of each word from image")
 args = vars(ap.parse_args())
 
@@ -34,10 +34,11 @@ if blur_value :
     # pass image for OCR 
     if args["confidence"]:
         recognized_text, confidence = tr.text_confidence()
-        print(recognized_text,confidence)
+        print(f"recognized_text:\n{recognized_text}")
+        print(f"confidence_list:{confidence}")
     else:
         recognized_text = tr.text_recognition()
-        print(recognized_text)
+        print(f"recognized_text:\n{recognized_text}")
     
 else:
-    print("Image is Blur...")
+    print("Image is Blur,unable to get OCR.")

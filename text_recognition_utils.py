@@ -45,7 +45,7 @@ class TextDetectionRecognition:
         # then compute the mean of the magnitude values
         magnitude = 20 * np.log(np.abs(recon))
         mean = np.mean(magnitude)
-        print(mean)
+        # print(mean)
         # the image will be considered "blurry" if the mean value of the
         # magnitudes is less than the threshold value
         if mean <= 10 :

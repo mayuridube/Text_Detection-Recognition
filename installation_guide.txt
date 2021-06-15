@@ -1,0 +1,11 @@
+Installation of prerequisite:
+$apt-get update && apt-get install -y python3-pip tesseract-ocr libtesseract-dev libleptonica-dev pkg-config git wget
+
+Installation of Tesserocr:
+$git clone https://github.com/sirfz/tesserocr && wget https://github.com/simonflueckiger/tesserocr-windows_build/releases/download/tesserocr-v2.3.0-tesseract-4.0.0-beta.2/tesserocr-2.3.0-cp36-cp36m-manylinux1_x86_64.whl && pip3 install tesserocr-2.3.0-cp36-cp36m-manylinux1_x86_64.whl
+
+other requirements:
+pip3 install -r requirements.txt 
+
+Note:
+1.It supports tesseract 4.0.0
