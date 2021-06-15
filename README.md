@@ -11,20 +11,18 @@ $ python3 main.py --image './images/5.png' --confidence True<br>
 
 <h3>Outputs: </h3>
 <p>
+ 1. OCR on straight image:<br>
  <img src="images/5.png", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
  <img src="images/op_5.png", height="150",width="80"></img><br>
- Fig:1 OCR on straight image:<br>
-</p>
-
-
+ </p>
 <p>
- <h3> 2.blur image </h3><br>
- <img src="images/3.jpeg"></img>
- <h2>Output:Image is Blur,unable to get OCR.</h2>
-</p>
-
+ 2. OCR on Blur image:<br>
+ <img src="images/5.png", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
+ Output:Image is Blur,unable to get OCR
+ </p>
 <p>
- <h3> 3.Rotated image </h3><br>
- <img src="images/1.jpg"></img>
- <img src="images/op_1.png"></img>
-</p>
+ 3. OCR on rotated image:<br>
+ <img src="images/1.jpg", height="150", width="80"></img>&nbsp&nbsp&nbsp&nbsp
+ <img src="images/op_1.png", height="150",width="80"></img><br>
+ </p>
+
