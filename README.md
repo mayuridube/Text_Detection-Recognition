@@ -9,11 +9,13 @@ $ python3 main.py --image './images/5.png'<br>
 2.Print the each word from image with its confidence<br>
 $ python3 main.py --image './images/5.png' --confidence True<br>
 
-<h4> Outputs: </h4>
-<p>
- <h5> 1.straight image </h5><br>
- <img src="images/5.png", height="100",width="80"></img> <img src="images/op_5.png", height="100",width="80"></img>
+<h3>Outputs: </h3>
+<p align="center">
+ <img src="images/5.png", height="300"></img>&nbsp&nbsp&nbsp&nbsp
+ <img src="images/op_5.png", height="300"></img><br>
+ Fig:1 OCR on straight image:<br>
 </p>
+
 
 <p>
  <h3> 2.blur image </h3><br>
