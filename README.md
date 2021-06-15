@@ -1,1 +1,1 @@
-# Text_Detection-Recognition
+# Text_Recognition_using_tesserocr
