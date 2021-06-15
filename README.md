@@ -10,10 +10,10 @@ $ python3 main.py --image './images/aadhar_demo2.jpg'<br>
 $ python3 main.py --image './images/aadhar_demo2.jpg' --confidence True<br>
 
 <h4> Outputs </h4>
-<p>
- <h3> 1.straight image </h3><br>
- <img src="images/5.png"></img>
- <img src="images/op_5.png"></img>
+<p align="center">
+ <h5> 1.straight image </h5><br>
+ <img src="images/5.png", height="300"></img>&nbsp&nbsp&nbsp&nbsp>
+ <img src="images/op_5.png", height="300"></img>
 </p>
 
 <p>
