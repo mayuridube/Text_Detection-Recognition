@@ -1,12 +1,12 @@
-# Text_Recognition_using_tesserocr
+# Text Recognition using tesserocr
 <H4> Installation Guide </h4>
 1.Follow installation_guide.txt in repo<br>
 
 <h4> Usage:</h4>
-1.Only print the text from image<br>
+<h6>1.Only print the text from image</h6><br>
 $ python3 main.py --image './images/5.png'<br>
 
-2.Print the each word from image with its confidence<br>
+<h6>2.Print the each word from image with its confidence</h6><br>
 $ python3 main.py --image './images/5.png' --confidence True<br>
 
 <h3>Outputs: </h3>
