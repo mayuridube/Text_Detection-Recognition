@@ -3,11 +3,11 @@
 1.Follow installation_guide.txt in repo<br>
 
 <h4> Usage:</h4>
-<h6>1.Only print the text from image</h6>
-$ python3 main.py --image './images/5.png'<br>
+1.Only print the text from image<br>
+<h6>$ python3 main.py --image './images/5.png'</h6>
 
-<h6>2.Print the each word from image with its confidence</h6>
-$ python3 main.py --image './images/5.png' --confidence True<br>
+2.Print the each word from image with its confidence<br>
+<h6>$ python3 main.py --image './images/5.png' --confidence True</h6>
 
 <h3>Outputs: </h3>
 <p>
